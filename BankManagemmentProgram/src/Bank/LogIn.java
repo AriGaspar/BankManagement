@@ -37,7 +37,7 @@ public class LogIn extends JFrame {
 	List<User> users = new ArrayList<User>();
 	
 	public static void main(String[] args) {
-		EventQueue.invokeLater(new Runnable() {
+		EventQueue.invokeLater( new Runnable() {
 			public void run() {
 				try {
 					LogIn frame = new LogIn();
